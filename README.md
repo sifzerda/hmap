@@ -61,6 +61,9 @@ CODE EDITOR TERMINAL:
 - npm run start
 
 Dummy user accounts for testing/debugging:
+
+currently unusable because website hasn't been seeded yet.
+
 ```diff
 +username: Xandromus
 +email: xandro@aol.com
