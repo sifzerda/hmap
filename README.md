@@ -1,6 +1,6 @@
-# Final Project: Tour-de-force Tour Tracker
+# Horror Fiction Map 👻
 
-## Table of Contents
+## Table of Contents 🦇
 
 1. Description
 2. Badges
@@ -13,11 +13,15 @@
 9. License
 10. Project status
 
-# Description
+# Description 💀
 
-This is a fullstack MERN app that runs a ticket purchasing system and merchandise store. It uses express, a MongoDB database, graphql and Apollo server. It allows users to search for gigs and shows, check venues and times where these are showing, and then purchase a ticket, or merchandise from the store.
+This is a smaller companion blog to Fiction Map. It provides an in depth guide on horror fiction and narrative writing. It's more concerned with how to write a scary story, and exploring what makes a story scary. 
 
-## 2. Badges
+The site runs front-end in React, on an Express server, with Node.js. There are a handful of pages each covering a separate topic on horror writing, including techniques, scary scenes, genre, scary sentences, etc. The back-end has a Mongodb database, and graphql queries, and enables user registration for basic account access, user authentication by JWT. Users can leave comments on each page, and contact me via a working contact form on the contact page (to do).
+
+This is a personal project that happened alongside building the fiction map page. Many techniques I collected referred specifically to horror atmosphere writing and couldn't be included on the fic-map page, which required a separate website.
+
+## 2. Badges 👻
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
@@ -40,15 +44,15 @@ This is a fullstack MERN app that runs a ticket purchasing system and merchandis
 ![Font Awesome](https://img.shields.io/badge/Font%20Awesome-538DD7.svg?style=for-the-badge&logo=Font-Awesome&logoColor=white)
 ![Material Design](https://img.shields.io/badge/Material%20Design-757575.svg?style=for-the-badge&logo=Material-Design&logoColor=white)
 ![Material Design Icons](https://img.shields.io/badge/Material%20Design%20Icons-2196F3.svg?style=for-the-badge&logo=Material-Design-Icons&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-008CDD.svg?style=for-the-badge&logo=Stripe&logoColor=white)
 
-## 3. Visuals
+
+## 3. Visuals 🦇
 
 Link to app deployed on Heroku:
 
-https://tour-de-force-397007b365cc.herokuapp.com/
+https://horror-map-3b5accd83dc7.herokuapp.com/
 
-## 4. Installation
+## 4. Installation 💀
 
 CODE EDITOR TERMINAL:
 
@@ -56,46 +60,41 @@ CODE EDITOR TERMINAL:
 - npm run seed
 - npm run start
 
-Pre-made working accounts for logging in debugging purposes:
+Dummy user accounts for testing/debugging:
+```diff
++username: Xandromus
++email: xandro@aol.com
++password: 12345
 
-    email: sal@hotmail.com
-    password: password12345
++username: Sal
++email: sal@hotmail.com
++password: 12345
 
-    email: lernantino@gmail.com
-    password: password12345
++username: Lernantino
++email: lernantino@gmail.com
++password: 12345
 
-    email: amiko2k20@aol.com
-    password: password12345
++username: Amiko
++email: amiko2k20@aol.com
++password: 12345
 
-    email: xandro@aol.com
-    password: password12345
++username: 'David',
++email: 'dthomas@techfriends.dev',
++password: '12345'
 
-Dummy stripe card number:
+```
 
-- 4242 4242 4242 4242
-- other details can be made up
-
-Dummy PayPal account info:
-- Email: sb-2vzk530821041@personal.example.com
-- Password: wQ9jfet@
-- Name: John Doe
-- Card: 
-   - Type: VISA
-   - Card Number: 4239535067551077
-   - Expiry: 06/2029
-   - CVC Code: Any 3 digits
-
-## 5. Usage
+## 5. Usage 👻
 
 User authentication with JWTs allow users to create an account, which stores data on past store and ticket purchases. Users can also leave reviews to shows they've seen. Visitors can browse current shows and make a purchase of a ticket to a show. Payment for tickets uses PayPal, while merchandise store purchases use Stripe. 
 
 Once purchasing a ticket or merchandise, users can find records of purchases displaying on their profile page. 
 
-## 6. Support
+## 6. Support 🦇
 
 For support, users can contact tydamon@hotmail.com. Links to my github and the app repo are also in the footer of the blog.
 
-## 8. Contributing
+## 8. Contributing 💀
 
 Any contributions you make are greatly appreciated.
 
@@ -106,20 +105,18 @@ If you have a suggestion that would make this better, please fork the repo and c
 4.	Push to the Branch (git push origin feature/NewFeature)
 5.	Open a Pull Request
 
-## 9. Authors and acknowledgment
+## 9. Authors and acknowledgment 👻
 
 The author acknowledges and credits those who have contributed to this project, including:
 
 -	https://git.bootcampcontent.com/Monash-University/MONU-VIRT-FSF-PT-11-2023-U-LOLC
--	Chee Ho Tai
--	Pranita Shrestha
--	Phil Loy 
 -   Chat GPT and the Xpert Learning Assistant
+-   Horror logo animation from https://codepen.io/chasebank/pen/qZNLyx
 
-## 10. License
+## 10. License 🦇
 
 Distributed under the MIT License. See LICENSE.txt for more information.
  
-## 11. Project status
+## 11. Project status 💀
 
 This project is completed.
