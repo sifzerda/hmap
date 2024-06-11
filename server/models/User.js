@@ -1,60 +1,32 @@
 const mongoose = require('mongoose');
 const { Schema } = mongoose;
 const bcrypt = require('bcrypt');
-const Order = require('./Order');
-
-const ticketSchema = new Schema({
-  purchaseDate: {
-    type: Date,
-    default: Date.now,
-  },
-  showName: {
-    type: String,
-    required: true,
-  },
-  price: {
-    type: Number,
-    required: true,
-  },
-  venue: {
-    type: String,
-    required: true,
-  },
-  time: {
-    type: String,
-    required: true,
-  },
-});
 
 const userSchema = new Schema({
-  firstName: {
+  username: {
     type: String,
     required: true,
-    trim: true
-  },
-  lastName: {
-    type: String,
-    required: true,
-    trim: true
+    trim: true,
+    unique: true,
   },
   email: {
     type: String,
     required: true,
-    unique: true
+    unique: true,
+    match: [/.+@.+\..+/, 'Must match an email address!'],
   },
   password: {
     type: String,
     required: true,
     minlength: 5
   },
-  tickets: [ticketSchema],
   thoughts: [
     {
       type: Schema.Types.ObjectId,
       ref: 'Thought',
     },
   ],
-  orders: [Order.schema]
+  
 });
 
 // set up pre-save middleware to create password

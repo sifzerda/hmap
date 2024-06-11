@@ -1,101 +1,101 @@
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import './index.css';
-// index.js or App.js
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 
 import App from './App.jsx';
-import Home from './pages/Home';
-import Detail from './pages/Detail';
-import NoMatch from './pages/NoMatch';
-import Login from './pages/Login';
-import Signup from './pages/Signup';
-import OrderHistory from './pages/OrderHistory';
-import Success from './pages/Success';
-//import SubConfirm from './pages/SubConfirm.jsx';
-import Shop from './pages/Shop.jsx';
-import Shows from './pages/Shows.jsx';
-import ShowDetail from './pages/ShowDetail.jsx';
-//import Tickets from './pages/Tickets.jsx';
-import TicketDetail from './pages/TicketDetail.jsx';
-import TicketPurchase from './pages/TicketPurchase.jsx';
-import TicketConfirm from './pages/TicketConfirm.jsx';
+import Error from './pages/Error.jsx';
+import Resume from './pages/Resume.jsx';
+import Contact from './pages/Contact.jsx';
+import About from './pages/About.jsx';
+import Profile from './pages/Profile.jsx';
 
+// subjects
+
+import Genre from './pages/Genre.jsx';
+import Techniques from './pages/Techniques.jsx';
+import Tropes from './pages/Tropes.jsx';
+import Scenes from './pages/Scenes.jsx';
+import Types from './pages/Types.jsx';
+import ScaryWords from './pages/ScaryWords.jsx';
+
+import References from './pages/References.jsx';
+import Login from './pages/Login.jsx';
+import Signup from './pages/Signup.jsx';
+
+// Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: <NoMatch />,
+    errorElement: <Error />,
     children: [
       {
         index: true,
-        element: <Home />
+        element: <About />,
       },
-      ////////////////////////////////////////
+
+      {
+        path: '/Contact',
+        element: <Contact />,
+      },
+      
+      {
+        path: '/Resume',
+        element: <Resume />,
+      },
+
+      {
+        path: '/Genre',
+        element: <Genre />,
+      },
+
+      {
+        path: '/Techniques',
+        element: <Techniques />,
+      },
+      {
+        path: '/Types',
+        element: <Types />,
+      },
+
+      {
+        path: '/Scenes',
+        element: <Scenes />,
+      },
+
+      {
+        path: '/Tropes',
+        element: <Tropes />,
+      },
+      {
+        path: '/Techniques',
+        element: <Techniques />,
+      },
+      {
+        path: '/ScaryWords',
+        element: <ScaryWords />,
+      },
+
+      {
+        path: '/References',
+        element: <References />,
+      },
+
       {
         path: '/login',
         element: <Login />
       },
-      ////////////////////////////////////////
+
       {
         path: '/signup',
         element: <Signup />
       },
-      ////////////////////////////////////////
-      {
-        path: '/account',
-        element: <OrderHistory />
-      },
-      ////////////////////////////////////////
-      {
-        path: '/products/:id',
-        element: <Detail />
-      },
-      ////////////////////////////////////////
-      {
-        path: '/success',
-        element: <Success />
-      },
-      ////////////////////////////////////////
-      {
-        path: '/tickets/:id',
-        element: <TicketDetail />
-      },
-      ////////////////////////////////////////
-      {
-        path: '/shop',
-        element: <Shop />
-      },
-      ////////////////////////////////////////
-      {
-        path: '/shows',
-        element: <Shows />
-      },
-      ////////////////////////////////////////
-      {
-        path: '/shows/:id',
-        element: <ShowDetail />
-      },
-      ////////////////////////////////////////
-      {
-        path: '/tickets/purchase/:id',
-        element: <TicketPurchase />
-      },
-      // more links //////////////////////////////////////////
-      {
-        path: '/tickets/purchase/confirm',
-        element: <TicketConfirm />
-      },
-      //{
-      //  path: '/page2',
-      //  element: <Event-1 />
-      //},
-      //{
-      //path: '/page3',
-      //element: <Chat />
-      //},
 
+      {
+        path: '/Profile',
+        element: <Profile />
+      },
     ],
   },
 ]);

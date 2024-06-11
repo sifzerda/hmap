@@ -3,7 +3,6 @@ import { useMutation } from '@apollo/client';
 import { Link } from 'react-router-dom';
 import { LOGIN } from '../utils/mutations';
 import Auth from '../utils/auth';
-import Cart from "../components/Cart";
 import '../App'; 
 
 function Login(props) {
@@ -19,7 +18,7 @@ function Login(props) {
       const token = mutationResponse.data.login.token;
       Auth.login(token);
     } catch (e) {
-      console.log('error', e);
+      console.error('Error:', e.message);
     }
   };
 
@@ -48,7 +47,7 @@ function Login(props) {
             onChange={handleChange}
           />
         </div>
-        <div className="form-group">
+        <div className="form-group-z">
           <label htmlFor="pwd" className="label-z">Password:</label>
           <input
             className="input-z"
@@ -68,7 +67,6 @@ function Login(props) {
           <button type="submit" className="submit-button-z">Submit</button>
         </div>
       </form>
-      <Cart />
     </div>
     
   );

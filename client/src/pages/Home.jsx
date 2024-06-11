@@ -1,62 +1,21 @@
-import { useState } from 'react';
-import { useQuery } from '@apollo/client';
-import Cart from "../components/Cart";
-import Carousel from "../components/Carousel";
-import { QUERY_SHOWS } from '../utils/queries';
-import ReactPlayer from 'react-player';
-import '../App.css';
-
-const Home = () => {
-  // Fetch shows data using the query
-  const { loading, error, data } = useQuery(QUERY_SHOWS);
-  const [selectedVideoUrl, setSelectedVideoUrl] = useState(null);
-
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error: {error.message}</p>;
-
-  const handleVideoLinkClick = (videoUrl) => {
-    setSelectedVideoUrl(videoUrl);
-  };
-
+export default function Home() {
   return (
-    <div className="container">
-      <h1 className='whats-on'>What's On</h1>
-      <Carousel />
-    
-      {/* Links to each show */}
-      <div>
-        <h2>All Shows</h2>
-        <div className="link-list">
-          <ul className="show-list">
-            <div className="divider" />
-            {data.shows.map(show => (
-              <li key={show._id}>
-                <a className="show-link" href={`/Shows/${show._id}`}>
-                  <span>{show.name}</span>
-                </a>
-                <button onClick={() => handleVideoLinkClick(show.videoUrl)}>Watch Video</button>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-
-      {/* Video player */}
-      <div className="youtube-video-container">
-        <div className="video-wrapper">
-          {selectedVideoUrl && (
-            <ReactPlayer
-              url={selectedVideoUrl}
-              controls
-            />
-          )}
-        </div>
-      </div>
-
-      <div className="divider" />
-      <Cart />
+    <div>
+      <h1>Home Page</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
+        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
+        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
+        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
+        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
+        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
+        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
+        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
+        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus.
+      </p>
     </div>
   );
-};
+}
 
-export default Home;
+

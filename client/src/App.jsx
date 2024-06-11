@@ -1,19 +1,14 @@
-
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
+// Bringing in the required import from 'react-router-dom'
 import { Outlet } from 'react-router-dom';
+import Navigation from './components/Navigation';
+import Header from './components/Header';
+import Footer from './components/Footer';
+//import Sidebar from './components/Sidebar';
+import Hrefs from './components/Hrefs';
+//import Subjects from './components/Subjects';
 import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink, } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
-
-import Nav from './components/Nav';
-import { StoreProvider } from './utils/GlobalState';
-import Header from './components/Header';
-import Navi from './components/Navi';
-import Footer from './components/Footer';
-
-//import dotenv from 'dotenv';
-//dotenv.config();
-
-////////////////////////////////////////////////////////////////////
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -34,22 +29,30 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
 });
 
+// subjects //
+
 function App() {
   return (
     <ApolloProvider client={client}>
-      <div>
-        <StoreProvider>
-
+      <>
+        <header className="header">
           <Header />
+          <Navigation />
+        </header>
 
-          <Navi />
-          <Nav />
-          <Outlet />
+        <div className="bucket-app">
+          <aside className="sidebar">
+             <Hrefs /> 
+            {/* <Subjects /> */}
+          </aside>
 
-          <Footer />
+          <main className="main-content mx-3">
+            <Outlet />
+          </main>
+        </div>
 
-        </StoreProvider>
-      </div>
+        <Footer />
+      </>
     </ApolloProvider>
   );
 }

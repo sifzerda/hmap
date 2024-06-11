@@ -1,61 +1,11 @@
 const typeDefs = `
 
-type Show {
-  _id: ID
-  name: String
-  description: String
-  image: String
-  ticketBannerImg: String
-  ticketDesc: String
-  videoUrl: String
-  venue: [Venue]
-  price: Float
-  thoughts: [Thought]
-}
-
-type Venue {
-  _id: ID
-  name: String
-  time: [Time]
-  seatRows: Int 
-  seatCols: Int
-}
-
-type Time {
-  _id: ID
-  time: String
-}
-
-  type Category {
-    _id: ID
-    name: String
-  }
-
-  type Product {
-    _id: ID
-    name: String
-    description: String
-    image: String
-    quantity: Int
-    price: Float
-    category: Category
-  }
-
-  type Order {
-    _id: ID
-    purchaseDate: String
-    products: [Product]
-  }
-
   type User {
     _id: ID
-    firstName: String
-    lastName: String
+    username: String
     email: String
-    orders: [Order]
+    password: String
     thoughts: [Thought]
-    show: Show
-    tickets: [Ticket]
   }
 
   type Thought {
@@ -63,85 +13,30 @@ type Time {
     thoughtText: String
     thoughtAuthor: String
     createdAt: String
-    show: Show
-  }
-
-  type Ticket {
-    _id: ID
-    purchaseDate: String
-    showName: String
-    price: Float
-    venue: String
-    time: String
-  }
-  
-
-  type Checkout {
-    session: ID
+    pageParams: String
   }
 
   type Auth {
-    token: ID
+    token: ID!
     user: User
-  }
-
-  input ProductInput {
-    _id: ID
-    purchaseQuantity: Int
-    name: String
-    image: String
-    price: Float
-    quantity: Int
-  }
-
-  input ShowInput {
-    name: String
-    description: String
-    image: String
-    venue: [VenueInput]
-    price: Float
-  }
-
-  input VenueInput {
-    name: String
-    time: [TimeInput]
-    seatRows: Int
-    seatCols: Int
-  }
-
-  input TimeInput {
-    time: String
   }
 
   type Query {
-    shows: [Show]
-    show(_id: ID): Show
-    categories: [Category]
-    products(category: ID, name: String): [Product]
-    product(_id: ID!): Product
-    user: User
-    order(_id: ID!): Order
-    checkout(products: [ProductInput]): Checkout
-    thoughts(firstName: String): [Thought]
-    thought(thoughtId: ID!): Thought
-    me: User
+    user(userId: ID!): User
     users: [User]
-    ticket(userId: ID!, ticketId: ID!): Ticket 
-    tickets(userId: ID!): [Ticket]
+    me: User
+    thought(thoughtId: ID!): Thought
+    thoughts: [Thought]
+    thoughtsPage(pageParams: String!): [Thought]
   }
 
   type Mutation {
-    createShow(input: ShowInput): Show
-    updateShow(_id: ID!, input: ShowInput!): Show
-    deleteShow(_id: ID!): Show
-    addUser(firstName: String!, lastName: String!, email: String!, password: String!): Auth
-    addOrder(products: [ID]!): Order
-    updateUser(firstName: String, lastName: String, email: String, password: String): User
-    updateProduct(_id: ID!, quantity: Int!): Product
+    addUser(username: String!, email: String!, password: String!): Auth
+    updateUser(username: String, email: String, password: String): User
     login(email: String!, password: String!): Auth
-    addThought(showId: ID!, thoughtText: String!): Thought
+    addThought(userId: ID!, thoughtText: String!, pageParams: String!): Thought
     removeThought(thoughtId: ID!): Thought
-    createTicket(purchaseDate: String!, showName: String!, price: Float!, venue: String!, time: String!): Ticket
+    removeUser: User
   }
 `;
 
