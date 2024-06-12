@@ -109,6 +109,8 @@ If you have a suggestion that would make this better, please fork the repo and c
 4.	Push to the Branch (git push origin feature/NewFeature)
 5.	Open a Pull Request
 
+You can also leave feedback by making an account and leaving messages on each page, at the bottom of the page.
+
 ## 9. Authors and acknowledgment 👻
 
 The author acknowledges and credits those who have contributed to this project, including:
