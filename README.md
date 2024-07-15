@@ -1,5 +1,7 @@
 # Horror Fiction Map 👻
 
+THIS IS CURRENTLY UNFINISHED
+
 ## Table of Contents 🦇
 
 1. Description
@@ -125,4 +127,4 @@ Distributed under the MIT License. See LICENSE.txt for more information.
  
 ## 11. Project status 💀
 
-This project is completed.
+This project is INCOMPLETE.
