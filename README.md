@@ -1,5 +1,7 @@
 # Horror Fiction Map 👻
 
+THIS IS CURRENTLY UNFINISHED
+
 ## Table of Contents 🦇
 
 1. Description
@@ -44,6 +46,7 @@ This is a personal project that happened alongside building the fiction map page
 ![Font Awesome](https://img.shields.io/badge/Font%20Awesome-538DD7.svg?style=for-the-badge&logo=Font-Awesome&logoColor=white)
 ![Material Design](https://img.shields.io/badge/Material%20Design-757575.svg?style=for-the-badge&logo=Material-Design&logoColor=white)
 ![Material Design Icons](https://img.shields.io/badge/Material%20Design%20Icons-2196F3.svg?style=for-the-badge&logo=Material-Design-Icons&logoColor=white)
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
 
 ## 3. Visuals 🦇
@@ -108,6 +111,8 @@ If you have a suggestion that would make this better, please fork the repo and c
 4.	Push to the Branch (git push origin feature/NewFeature)
 5.	Open a Pull Request
 
+You can also leave feedback by making an account and leaving messages on each page, at the bottom of the page, but I won't get notified of new messages, and may not see it.
+
 ## 9. Authors and acknowledgment 👻
 
 The author acknowledges and credits those who have contributed to this project, including:
@@ -122,4 +127,4 @@ Distributed under the MIT License. See LICENSE.txt for more information.
  
 ## 11. Project status 💀
 
-This project is completed.
+This project is INCOMPLETE.
