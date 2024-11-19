@@ -22,7 +22,7 @@ function Footer() {
 
           <br></br>
 
-          <a href="https://sparkling-faloodeh-5b05b8.netlify.app/" target="_blank" rel="noopener noreferrer">My Project Portfolio</a>
+          <a href="https://react-td-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">My Project Portfolio</a>
 
         </div>
       </div>
