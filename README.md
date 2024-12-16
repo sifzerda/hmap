@@ -48,8 +48,9 @@ This is a personal project that happened alongside building the fiction map page
 ![Material Design Icons](https://img.shields.io/badge/Material%20Design%20Icons-2196F3.svg?style=for-the-badge&logo=Material-Design-Icons&logoColor=white)
 ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
-
 ## 3. Visuals 🦇
+
+![screenshot](https://github.com/user-attachments/assets/8b8edbfe-0049-43ff-8753-984ed87e49cb)
 
 Link to app deployed on Heroku:
 
