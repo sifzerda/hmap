@@ -610,7 +610,7 @@ h1.jumbo-bg-dark-text {
 
 /* ------------------------ sidebar (dropdown)  ----------------------*/
 
-sidebar {
+.sidebar {
   width: 250px;
 }
 
