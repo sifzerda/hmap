@@ -152,7 +152,7 @@ Instead of just saying 'Alb first heard of Dr. Thoss,' (which is merely a statem
 this poses a question that is more provocative because it's oblique and creates tension. Identifying a stranger is more interesting 
 than identifying a known individual (the named Dr. Thoss).</p>
 
-<h2 id="post-6-12" className="blog-post-title">6.14: Perfectly Ordinary</h2>
+<h2 id="post-6-12" className="blog-post-title">6.14: The Illsion of Banality</h2>
 
 <div className="p-3 mb-3 bg-light rounded-pixar"><i>There is a stairway. 
 </i><a href="#f13"><sup>14</sup></a></div>
@@ -226,7 +226,7 @@ than identifying a known individual (the named Dr. Thoss).</p>
                 <li><a href="#post-6-11">6.11: Mixed Intuition</a></li>
                 <li><a href="#post-6-12">6.12: Linking Unrelated Sentences</a></li>
                 <li><a href="#post-6-13">6.13: Creating Minor Mysteries</a></li>
-                <li><a href="#post-6-14">6.14: Perfectly Ordinary</a></li>
+                <li><a href="#post-6-14">6.14: The Illusion of Banality</a></li>
  
               </ol>
             </div>
