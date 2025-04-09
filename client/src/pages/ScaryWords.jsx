@@ -146,7 +146,7 @@ export default function ScaryWords() {
 
 <div className="p-3 mb-3 bg-light rounded-pixar"><i>When Alb Indys first heard the name of Dr. Thoss, he was flustered by his
  inability to locate the source from which it emanated. Right from the start, though, there seemed to be at least two voices chattering this name just within earshot, saying it over and over as if it were the central topic of some rambling discourse. 
-</i><a href="#f13"><sup>12</sup></a></div>
+</i><a href="#f13"><sup>13</sup></a></div>
 <p>This turns a statement or anecdote -- when Alb first heard of Dr. Thoss -- into a minor question: 'Who is speaking?'  
 Instead of just saying 'Alb first heard of Dr. Thoss,' (which is merely a statement) or posing the most obvious question 'Who is Dr Thoss?',
 this poses a question that is more provocative because it's oblique and creates tension. Identifying a stranger is more interesting 
@@ -177,6 +177,7 @@ than identifying a known individual (the named Dr. Thoss).</p>
                     <li id="f10"><i>The Way of the Cross </i>, Daphne Du Maurier.</li>
                     <li id="f11"><i>Pet Sematary </i>, Stephen King.</li>
                     <li id="f12"><i>The Exorcist </i>, William Peter Blatty Crawford.</li>
+                    <li id="f13"><i>The Troubles of Dr. Thoss</i>, Thomas Ligotti.</li>
                   </ol>
                 </div>
 
