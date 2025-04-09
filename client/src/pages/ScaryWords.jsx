@@ -161,7 +161,6 @@ than identifying a known individual (the named Dr. Thoss).</p>
   way to contradict expectation and create intrigue.
 </p>
 
-
  
 
 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}

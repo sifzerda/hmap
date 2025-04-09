@@ -7,7 +7,7 @@ export default function Subtext() {
     <div>
 
       <div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
-        <h1 className="display-4">Subtext</h1>
+        <h1 className="display-4">Genre</h1>
 
         <div id="wrapper" className="text-left">
           <p className="lead my-3">We shall see that at which dogs howl in the dark, and that at which cats prick up their ears after midnight </p>
@@ -34,6 +34,23 @@ export default function Subtext() {
         <div className="row">
           <div className="col-md-8 blog-main">
             <div className="blog-post">
+
+<div className="p-3 mb-3 bg-light rounded-pixar"><i>Supernatural horror was one of the ways we found that would allow us to
+ live with our double selves. By its employ, we discovered how to take all the
+things that victimize us in our natural lives and turn them into the very stuff of
+ demonic delight in our fantasy lives. In story and song, we could entertain
+ ourselves with the worst we could think of, overwriting real pains with ones
+ that were unreal and harmless to our species. 
+</i><a href="#f1"><sup>1</sup></a></div>
+<p>ELABORATION
+</p>
+
+
+
+
+
+
+
               <h2 id="post-10-1" className="blog-post-title">1.1: What is Scary?</h2>
               <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
 
@@ -101,7 +118,7 @@ export default function Subtext() {
 <div className="footnotes">
                   <h4>Footnotes</h4>
                   <ol>
-                    <li id="f1">From Steven Spielberg’s <i>War of the Worlds.</i></li>
+                    <li id="f1">Professor Nobody's Little Lectures on Supernatural Horror, <i>Thomas Ligotti.</i></li>
                   </ol>
                 </div>
 

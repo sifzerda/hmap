@@ -56,7 +56,7 @@ function Navigation() {
  
           className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
         >
-          About Me
+          About
         </Link>
       </li>
 
