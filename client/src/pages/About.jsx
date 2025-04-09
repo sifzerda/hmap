@@ -1,4 +1,4 @@
-import profilePic from '../../public/images/propic.jpg';
+import splashPic from '../../public/images/southside.png';
 import '../App.css';
 
 export default function About () {
@@ -8,7 +8,7 @@ export default function About () {
 
       <p className="separator-line"></p>
 
-      <img className="profile-picture" src={profilePic} alt="Profile"  />
+      <img className="profile-picture" src={splashPic} alt="Profile"  />
 
       <div className="separator-line"></div>
 
