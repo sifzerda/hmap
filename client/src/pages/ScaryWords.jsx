@@ -142,7 +142,7 @@ export default function ScaryWords() {
 </i><a href="#f12"><sup>12</sup></a></div>
 <p>The 'steer' noises (actually a possessed Regan) are interupted by something 'prodding' the priest's hand, tricking the reader to link the two subconciously before the interuption is explained. This has a subtle minor 'jumpscare' effect, and works a subconscious suggestion of something absurd: the 'steer' animal in the bedroom may have entered the room between paragraphs and, horribly, made contact with the priest.  </p>
  
-<h2 id="post-6-12" className="blog-post-title">6.13: Minor Mysteries</h2>
+<h2 id="post-6-12" className="blog-post-title">6.13: Creating Minor Mysteries</h2>
 
 <div className="p-3 mb-3 bg-light rounded-pixar"><i>When Alb Indys first heard the name of Dr. Thoss, he was flustered by his
  inability to locate the source from which it emanated. Right from the start, though, there seemed to be at least two voices chattering this name just within earshot, saying it over and over as if it were the central topic of some rambling discourse. 
@@ -214,6 +214,7 @@ than identifying a known individual (the named Dr. Thoss).</p>
                 <li><a href="#post-6-10">6.10: Clashing Descriptions</a></li>
                 <li><a href="#post-6-11">6.11: Mixed Intuition</a></li>
                 <li><a href="#post-6-12">6.12: Linking Unrelated Sentences</a></li>
+                <li><a href="#post-6-12">6.13: Creating Minor Mysteries</a></li>
  
               </ol>
             </div>
