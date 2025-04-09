@@ -7,7 +7,7 @@ export default function ScaryWords() {
     <div>
 
       <div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
-        <h1 className="display-4">Secondary Characters</h1>
+        <h1 className="display-4">Scary Words</h1>
 
         <div id="wrapper" className="text-left">
           <p className="lead my-3">Fictional characters are made of words, not flesh; they do not have free will, they do not exercise volition. They are easily born, and as easily killed off.</p>
@@ -141,6 +141,17 @@ export default function ScaryWords() {
 <p></p>"That's her," Chris was saying "that's Regan." She was giving him a photograph. He took it.    
 </i><a href="#f12"><sup>12</sup></a></div>
 <p>The 'steer' noises (actually a possessed Regan) are interupted by something 'prodding' the priest's hand, tricking the reader to link the two subconciously before the interuption is explained. This has a subtle minor 'jumpscare' effect, and works a subconscious suggestion of something absurd: the 'steer' animal in the bedroom may have entered the room between paragraphs and, horribly, made contact with the priest.  </p>
+ 
+<h2 id="post-6-12" className="blog-post-title">6.13: Minor Mysteries</h2>
+
+<div className="p-3 mb-3 bg-light rounded-pixar"><i>When Alb Indys first heard the name of Dr. Thoss, he was flustered by his
+ inability to locate the source from which it emanated. Right from the start, though, there seemed to be at least two voices chattering this name just within earshot, saying it over and over as if it were the central topic of some rambling discourse. 
+</i><a href="#f13"><sup>12</sup></a></div>
+<p>This turns a statement or anecdote -- when Alb first heard of Dr. Thoss -- into a minor question: 'Who is speaking?'  
+Instead of just saying 'Alb first heard of Dr. Thoss,' (which is merely a statement) or posing the most obvious question 'Who is Dr Thoss?',
+this poses a question that is more provocative because it's oblique and creates tension. Identifying a stranger is more interesting 
+than identifying a known individual (the named Dr. Thoss).</p>
+
  
 
 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}

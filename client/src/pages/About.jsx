@@ -4,7 +4,7 @@ import '../App.css';
 export default function About () {
   return (
     <div>
-      <h1>About Me</h1>
+      <h1>About</h1>
 
       <p className="separator-line"></p>
 
@@ -13,16 +13,17 @@ export default function About () {
       <div className="separator-line"></div>
 
       <p className='portfolio-bio'>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        This is a smaller sibling blog to my other site Fiction Map. Here, you can 
+        find advice and examples on various topics related to horror writing,
+        including a discussion on what is 'scary', types of horror, effective 
+        sentence structure to build tension, writing techniques, and more. 
+        Examples are provided and drawn from a variety of horror fiction media,
+        including books, movies, and video games. The goal of this blog is to
+        provide a resource for writers looking to improve their craft and
+        write scarier, better horror stories. I hope you find it useful!
       </p>
 
       <div className="separator-line"></div>
-
 
     </div>
   );
