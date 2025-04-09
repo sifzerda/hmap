@@ -152,6 +152,16 @@ Instead of just saying 'Alb first heard of Dr. Thoss,' (which is merely a statem
 this poses a question that is more provocative because it's oblique and creates tension. Identifying a stranger is more interesting 
 than identifying a known individual (the named Dr. Thoss).</p>
 
+<h2 id="post-6-12" className="blog-post-title">6.14: Perfectly Ordinary</h2>
+
+<div className="p-3 mb-3 bg-light rounded-pixar"><i>There is a stairway. 
+</i><a href="#f13"><sup>14</sup></a></div>
+<p>This story opener is so ordinary and self-evident that it elicits a question by what is not said; why is this stairway 
+  so special? Particularly in a horror story, which primes readers for suspense, highlighting the mundane and commonplace is an effective 
+  way to contradict expectation and create intrigue.
+</p>
+
+
  
 
 {/* ------------------------------------------------- Thoughts Form footnotes --------------------------------------------- */}
@@ -178,6 +188,7 @@ than identifying a known individual (the named Dr. Thoss).</p>
                     <li id="f11"><i>Pet Sematary </i>, Stephen King.</li>
                     <li id="f12"><i>The Exorcist </i>, William Peter Blatty Crawford.</li>
                     <li id="f13"><i>The Troubles of Dr. Thoss</i>, Thomas Ligotti.</li>
+                    <li id="f14"><i>Dr. Voke and Mr. Veech</i>, Thomas Ligotti.</li>
                   </ol>
                 </div>
 
@@ -214,7 +225,8 @@ than identifying a known individual (the named Dr. Thoss).</p>
                 <li><a href="#post-6-10">6.10: Clashing Descriptions</a></li>
                 <li><a href="#post-6-11">6.11: Mixed Intuition</a></li>
                 <li><a href="#post-6-12">6.12: Linking Unrelated Sentences</a></li>
-                <li><a href="#post-6-12">6.13: Creating Minor Mysteries</a></li>
+                <li><a href="#post-6-13">6.13: Creating Minor Mysteries</a></li>
+                <li><a href="#post-6-14">6.14: Perfectly Ordinary</a></li>
  
               </ol>
             </div>
