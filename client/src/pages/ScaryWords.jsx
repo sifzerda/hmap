@@ -40,9 +40,16 @@ export default function ScaryWords() {
               <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
 
               <div id="content">
-                <p>WHY IS SENTENCE STRUCTURE IMPORTANT IN CREATING HORROR.</p>
+                <p>WHY IS SENTENCE STRUCTURE IMPORTANT IN CREATING HORROR.
+                  Under Techniques I describes broad devices and concepts used to elicit horror. 
+                  But it's not enough to come up with a good idea. It must be executed in writing
+                  effectively for maximum impact. 
+                </p>
 
-                <p>All of the following examples create tension and horror not by describing something manifestly scary (e.g. a ghost), but by using language to infer the sense that something is ‘off.’ If you do this effectively, notice you don’t even need an identifiable source of horror to build suspense or provoke fear.</p>
+                <p>All of the following examples create tension and horror not by describing something 
+                  manifestly scary (e.g. a ghost), but by using language effectively to infer the sense that 
+                  something is ‘off.’ If you do this effectively, notice you don’t even need an 
+                  identifiable source of horror to build suspense or provoke fear.</p>
 
                 <hr></hr>
 
@@ -142,7 +149,7 @@ export default function ScaryWords() {
 </i><a href="#f12"><sup>12</sup></a></div>
 <p>The 'steer' noises (actually a possessed Regan) are interupted by something 'prodding' the priest's hand, tricking the reader to link the two subconciously before the interuption is explained. This has a subtle minor 'jumpscare' effect, and works a subconscious suggestion of something absurd: the 'steer' animal in the bedroom may have entered the room between paragraphs and, horribly, made contact with the priest.  </p>
  
-<h2 id="post-6-12" className="blog-post-title">6.13: Creating Minor Mysteries</h2>
+<h2 id="post-6-13" className="blog-post-title">6.13: Creating Minor Mysteries</h2>
 
 <div className="p-3 mb-3 bg-light rounded-pixar"><i>When Alb Indys first heard the name of Dr. Thoss, he was flustered by his
  inability to locate the source from which it emanated. Right from the start, though, there seemed to be at least two voices chattering this name just within earshot, saying it over and over as if it were the central topic of some rambling discourse. 
@@ -152,7 +159,7 @@ Instead of just saying 'Alb first heard of Dr. Thoss,' (which is merely a statem
 this poses a question that is more provocative because it's oblique and creates tension. Identifying a stranger is more interesting 
 than identifying a known individual (the named Dr. Thoss).</p>
 
-<h2 id="post-6-12" className="blog-post-title">6.14: The Illsion of Banality</h2>
+<h2 id="post-6-14" className="blog-post-title">6.14: The Illusion of Banality</h2>
 
 <div className="p-3 mb-3 bg-light rounded-pixar"><i>There is a stairway. 
 </i><a href="#f13"><sup>14</sup></a></div>
@@ -160,6 +167,17 @@ than identifying a known individual (the named Dr. Thoss).</p>
   so special? Particularly in a horror story, which primes readers for suspense, highlighting the mundane and commonplace is an effective 
   way to contradict expectation and create intrigue.
 </p>
+
+<h2 id="post-6-15" className="blog-post-title">6.15: Disagreeable Agreement</h2>
+
+<div className="p-3 mb-3 bg-light rounded-pixar"><i>"Is there anything else?" she asked.
+<br></br>"Yes. Could you tell me if this festival has anything to do with clowns? I see there's something about a masquerade.
+<br></br>“Yes, of course there are some people in . . . costumes. I’ve never been in that position myself . . . that is, yes, there are clowns of a sort.”
+</i><a href="#f15"><sup>15</sup></a></div>
+
+<p>A simple way to generate suspense is by using indirect dialogue, or refusing straightforward information/answers. 
+  This is a great example of oblique dialogue (see the Fiction Map)</p>
+
 
  
 
@@ -188,6 +206,7 @@ than identifying a known individual (the named Dr. Thoss).</p>
                     <li id="f12"><i>The Exorcist </i>, William Peter Blatty Crawford.</li>
                     <li id="f13"><i>The Troubles of Dr. Thoss</i>, Thomas Ligotti.</li>
                     <li id="f14"><i>Dr. Voke and Mr. Veech</i>, Thomas Ligotti.</li>
+                    <li id="f15"><i>The Last Feast of Harlequin</i>, Thomas Ligotti.</li>
                   </ol>
                 </div>
 
@@ -226,6 +245,7 @@ than identifying a known individual (the named Dr. Thoss).</p>
                 <li><a href="#post-6-12">6.12: Linking Unrelated Sentences</a></li>
                 <li><a href="#post-6-13">6.13: Creating Minor Mysteries</a></li>
                 <li><a href="#post-6-14">6.14: The Illusion of Banality</a></li>
+                <li><a href="#post-6-14">6.15: Disagreeable Agreement</a></li>
  
               </ol>
             </div>

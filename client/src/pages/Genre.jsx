@@ -45,12 +45,6 @@ things that victimize us in our natural lives and turn them into the very stuff 
 <p>ELABORATION
 </p>
 
-
-
-
-
-
-
               <h2 id="post-10-1" className="blog-post-title">1.1: What is Scary?</h2>
               <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
 
