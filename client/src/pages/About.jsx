@@ -1,4 +1,4 @@
-import splashPic from '../../public/images/southside.png';
+import splashPic from './../assets/southside.png';;
 import '../App.css';
 
 export default function About() {
