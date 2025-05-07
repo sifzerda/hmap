@@ -293,8 +293,7 @@ export default function Techniques() {
             </div>
 
             <nav className="blog-pagination">
-              <a className="btn btn-outline-primary" href="#">Older</a>
-              <a className="btn btn-outline-secondary disabled" href="#">Newer</a>
+              <a className="btn btn-outline-primary" href="#">Back to Top</a>
             </nav>
 
           </div>
