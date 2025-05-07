@@ -37,7 +37,6 @@ export default function Tropes() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
             <h2 id="post-7-1" className="blog-post-title">4.1: That Guy</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
               <div id="content">
 
 <p> You know the guy. Or girl.</p>
@@ -233,7 +232,7 @@ X: “Sounds like fun. I shuttle between Elmville and Mapledale regularly. Alway
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
                 <li><a href="#">GitHub</a></li>
                 <li><a href="#">Twitter</a></li>

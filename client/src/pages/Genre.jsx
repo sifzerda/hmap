@@ -46,7 +46,6 @@ things that victimize us in our natural lives and turn them into the very stuff 
 </p>
 
               <h2 id="post-10-1" className="blog-post-title">1.1: What is Scary?</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
 
               <div id="content">
                 <p>What are the scariest words a character in a horror story will ever hear?  </p>
@@ -142,7 +141,7 @@ things that victimize us in our natural lives and turn them into the very stuff 
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
                 <li><a href="#">GitHub</a></li>
                 <li><a href="#">Twitter</a></li>

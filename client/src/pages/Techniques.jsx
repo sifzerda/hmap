@@ -35,7 +35,6 @@ export default function Techniques() {
           <div className="col-md-8 blog-main">
             <div className="blog-post">
               <h2 id="post-16-1" className="blog-post-title">2.1: What Are The Rules?</h2>
-              <p className="blog-post-meta">January 1, 2014 by <a href="#">zerda</a></p>
               <div id="content">
 
                 <p>DEFINE TECHNIQUES AND WHY THEY'RE IMPORTANT</p>
@@ -331,7 +330,7 @@ export default function Techniques() {
             </div>
 
             <div className="p-3 mb-3 blue rounded">
-              <h4 className="font">Elsewhere</h4>
+              <h4 className="font">Also See</h4>
               <ol className="list-unstyled">
                 <li><a href="#">GitHub</a></li>
                 <li><a href="#">Twitter</a></li>
