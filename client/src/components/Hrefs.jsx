@@ -18,12 +18,7 @@ function Hrefs() {
     return (
         <div className="sidebar-container">
             <div className="button-container">
-                <button
-                    className={`toggle-btn ${isListVisible ? 'active' : ''}`}
-                    onClick={toggleListVisibility}
-                >
-                    Subjects
-                </button>
+                <button className={`toggle-btn ${isListVisible ? 'active' : ''}`} onClick={toggleListVisibility}>Subjects</button>
             </div>
             <div className={`list-content ${isListVisible ? 'visible' : ''}`}>
                 <ol>
@@ -31,7 +26,6 @@ function Hrefs() {
                     <li><Link to="/Types" onMouseDown={handleLinkClick}>Types</Link></li>
                     <li><Link to="/Techniques" onMouseDown={handleLinkClick}>Techniques</Link></li>
                     <li><Link to="/Tropes" onMouseDown={handleLinkClick}>Tropes</Link></li>
-                    <li><Link to="/Scenes" onMouseDown={handleLinkClick}>Scenes</Link></li>
                     <li><Link to="/ScaryWords" onMouseDown={handleLinkClick}>Scary Words</Link></li>
                     <li><Link to="/References" onMouseDown={handleLinkClick}>References</Link></li>
                 </ol>

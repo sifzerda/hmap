@@ -13,7 +13,6 @@ import About from './pages/About.jsx';
 import Genre from './pages/Genre.jsx';
 import Techniques from './pages/Techniques.jsx';
 import Tropes from './pages/Tropes.jsx';
-import Scenes from './pages/Scenes.jsx';
 import Types from './pages/Types.jsx';
 import ScaryWords from './pages/ScaryWords.jsx';
 
@@ -50,11 +49,6 @@ const router = createBrowserRouter([
       {
         path: '/Types',
         element: <Types />,
-      },
-
-      {
-        path: '/Scenes',
-        element: <Scenes />,
       },
 
       {
