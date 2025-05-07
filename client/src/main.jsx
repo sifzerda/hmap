@@ -5,10 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import App from './App.jsx';
 import Error from './pages/Error.jsx';
-import Resume from './pages/Resume.jsx';
 import Contact from './pages/Contact.jsx';
 import About from './pages/About.jsx';
-import Profile from './pages/Profile.jsx';
 
 // subjects
 
@@ -38,11 +36,6 @@ const router = createBrowserRouter([
       {
         path: '/Contact',
         element: <Contact />,
-      },
-      
-      {
-        path: '/Resume',
-        element: <Resume />,
       },
 
       {
@@ -92,10 +85,6 @@ const router = createBrowserRouter([
         element: <Signup />
       },
 
-      {
-        path: '/Profile',
-        element: <Profile />
-      },
     ],
   },
 ]);
