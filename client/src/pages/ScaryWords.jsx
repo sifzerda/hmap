@@ -22,7 +22,6 @@ export default function ScaryWords() {
         <img className="card-img-top w-100" src={scaryBanner} alt="Thumbnail" />
       </div>
 
-
       <main role="main" className="container">
         <div className="row">
           <div className="col-md-8 blog-main">
