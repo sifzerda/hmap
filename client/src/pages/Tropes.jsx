@@ -11,8 +11,8 @@ export default function Tropes() {
         <h1 className="display-4">Tropes and Clichés</h1>
 
         <div id="wrapper" className="text-left">
-        <p className="lead my-3">What you do speaks so loudly that I can’t hear what you’re saying </p>
-        <i>— Ralph Waldo Emerson</i>
+        <p className="lead my-3">Our very heads are filled with rented ideas passed on from one generation to the next. </p>
+        <i>— Thomas Ligotti</i>
         <p className="lead my-3">Be sure not to discuss your hero's state of mind. Make it clear from his actions</p>
         <i>— Anton Chekov</i>
         </div>
@@ -21,7 +21,6 @@ export default function Tropes() {
       <div className="card flex-md-row mb-4 box-shadow h-md-250 p-0">
         <img className="card-img-top w-100" src={tropesBanner} alt="Thumbnail" />
       </div>
-
  
       <main role="main" className="container">
         <div className="row">

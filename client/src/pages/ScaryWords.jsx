@@ -11,10 +11,10 @@ export default function ScaryWords() {
         <h1 className="display-4">Scary Words</h1>
 
         <div id="wrapper" className="text-left">
-          <p className="lead my-3">Fictional characters are made of words, not flesh; they do not have free will, they do not exercise volition. They are easily born, and as easily killed off.</p>
-          <i>— John Banville</i>
-          <p className="lead my-3">…[E]ach character has to have an agenda, and you need to know what they want and what they are willing to do to get it...and be mindful of it throughout the story </p>
-          <i>— Christopher Moore</i>
+          <p className="lead my-3">I think [horror writing] comes down to the selection of language, not necessarily obviously "atmospheric" words, and the gradual accumulation of detail. </p>
+          <i>— Ramsey Campbell</i>
+          <p className="lead my-3"> You're writing about events that are preposterous, and the trick is to dress them up in language so compelling that the reader doesn't care.” </p>
+          <i>— T. E. D Klein</i>
         </div>
       </div>
 

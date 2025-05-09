@@ -13,6 +13,14 @@ export default function About() {
 
       <div className="separator-line"></div>
 
+      <div className="jumbotron p-3 p-md-3 text-white rounded bg-dark">
+
+        <div id="wrapper" className="text-left">
+          <p className="lead my-3"><i>We shall see that at which dogs howl in the dark, and that at which cats prick up their ears after midnight. </i></p>
+          <i>— H. P. Lovecraft</i>
+        </div>
+      </div>
+
       <p className='portfolio-bio'>
         This is a smaller sibling blog to my other site Fiction Map. It's a resource
         for writers looking to improve their craft and write scarier, better horror stories.

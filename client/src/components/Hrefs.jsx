@@ -9,6 +9,11 @@ function Hrefs() {
         setIsListVisible(!isListVisible);
     };
 
+    const handleLinkClick = () => {
+        setTimeout(() => {
+        }, 100);
+    };
+
     return (
         <div className="sidebar-container">
             <div className="button-container">

@@ -11,8 +11,8 @@ export default function Subtext() {
         <h1 className="display-4">Genre</h1>
 
         <div id="wrapper" className="text-left">
-          <p className="lead my-3">We shall see that at which dogs howl in the dark, and that at which cats prick up their ears after midnight </p>
-          <i>— H. P. Lovecraft</i>
+          <p className="lead my-3">A ghost story of which the scene is laid in the twelfth or thirteenth century may succeed in being romantic or poetical  </p>
+          <i>— M. R. James</i>
         </div>
       </div>
 
