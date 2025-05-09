@@ -16,37 +16,47 @@ export default function ThoughtForm() {
     const userId = data?.me?._id;
     const username = data?.me?.username || 'Anonymous';
 
-    // Define mutation
-    const [addThought] = useMutation(ADD_THOUGHT, {
-        // Refetch queries to update the UI
-        refetchQueries: [{ query: QUERY_ME }],
-    });
+// Define mutation with direct Apollo cache update
+const [addThought, { loading, error }] = useMutation(ADD_THOUGHT, {
+    update(cache, { data: { addThought } }) {
+        try {
+            const existingData = cache.readQuery({ query: QUERY_ME });
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        console.log("Submitting thought...");
-        if (thought.trim() && userId) {
-            try {
-                console.log("Calling addThought mutation...");
-                // Call the mutation
-                await addThought({
-                    variables: {
-                        userId,
-                        thoughtText: thought,
-                        pageParams: pathName // Include the pathName as pageParams
-                    }
+            if (existingData && existingData.me) {
+                cache.writeQuery({
+                    query: QUERY_ME,
+                    data: {
+                        me: {
+                            ...existingData.me,
+                            thoughts: [addThought, ...existingData.me.thoughts],
+                        },
+                    },
                 });
-                console.log("Thought submitted successfully!");
-
-                // Clear input field after submission
-                setThought('');
-                // Refresh the page (to update with posted thought automatically)
-                window.location.reload();
-            } catch (err) {
-                console.error("Error submitting thought:", err); // Log any errors
             }
+        } catch (err) {
+            console.error('Apollo cache update error:', err);
         }
-    };
+    },
+});
+
+const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (thought.trim() && userId) {
+        try {
+            await addThought({
+                variables: {
+                    userId,
+                    thoughtText: thought,
+                    pageParams: pathName,
+                },
+            });
+            // Clear input field after successful submission
+            setThought('');
+        } catch (err) {
+            console.error('Error submitting thought:', err);
+        }
+    }
+};
 
     return (
         <div className="thought-form">
@@ -73,8 +83,6 @@ export default function ThoughtForm() {
                     <Link to="/login">login</Link> or <Link to="/signup">signup</Link>.
                 </p>
             )}
-
-            {/* Remove the local state for thoughts display */}
 
         </div>
     );
