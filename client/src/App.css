@@ -23,7 +23,7 @@
   --light-red: #f02652;
   --gold: #ffc107;
   --creepy-green: #9cffd9;
-  --creepy-green2:  #cefff4;
+  --creepy-green2: #cefff4;
   --midnight: rgb(8, 29, 88);
 }
 
@@ -86,7 +86,8 @@ body {
   animation: shad-anim 15s linear infinite;
 }
 
-/* -------------------glitch effect *//* https://codepen.io/chasebank/pen/qZNLyx */
+/* -------------------glitch effect */
+/* https://codepen.io/chasebank/pen/qZNLyx */
 
 .the {
   font-size: 5em;
@@ -129,21 +130,22 @@ body {
   justify-content: center;
   border-radius: 20px;
   border: 1px rgb(157, 193, 248) solid;
-  animation: glow 2s infinite alternate;  
+  animation: glow 2s infinite alternate;
 }
 
 @keyframes glow {
   0% {
     box-shadow: 0 0 100px rgb(255, 255, 255),
-                0 0 5px rgba(156, 245, 252, 0.966),
-                0 0 8px rgba(157, 193, 248, 0.5),
-                0 0 10px rgba(150, 250, 245, 0.5);
+      0 0 5px rgba(156, 245, 252, 0.966),
+      0 0 8px rgba(157, 193, 248, 0.5),
+      0 0 10px rgba(150, 250, 245, 0.5);
   }
+
   100% {
     box-shadow: 0 0 5px rgb(255, 255, 255),
-                0 0 100px rgba(156, 245, 252, 0.966),
-                0 0 20px rgba(157, 193, 248, 0.5),
-                0 0 10px rgba(150, 250, 245, 0.5);
+      0 0 100px rgba(156, 245, 252, 0.966),
+      0 0 20px rgba(157, 193, 248, 0.5),
+      0 0 10px rgba(150, 250, 245, 0.5);
   }
 }
 
@@ -285,8 +287,8 @@ body {
   }
 }
 
-ol, 
-ul, 
+ol,
+ul,
 li {
   color: white;
 }
@@ -297,11 +299,11 @@ h1 {
   justify-content: center;
   display: grid;
   font-family: 'Amatic SC', cursive;
-  color:  var(--creepy-green2);
+  color: var(--creepy-green2);
   text-shadow: 5px 8px 5px rgba(0, 0, 0, 0.5);
 }
 
-h2, 
+h2,
 h6 {
   color: var(--creepy-green);
 }
@@ -327,19 +329,19 @@ textarea {
   color: #fcfafa;
   border-left: 1px solid black;
   padding: 10px;
-    border: 1px rgb(157, 193, 248) solid;
+  border: 1px rgb(157, 193, 248) solid;
   box-shadow: 0 0 1px rgb(255, 255, 255),
-  0 0 5px rgba(156, 245, 252, 0.966),
-  0 0 10px rgba(157, 193, 248, 0.5),
-  0 0 20px rgba(150, 250, 245, 0.5);
+    0 0 5px rgba(156, 245, 252, 0.966),
+    0 0 10px rgba(157, 193, 248, 0.5),
+    0 0 20px rgba(150, 250, 245, 0.5);
 }
 
 textarea:focus {
-color: black;
+  color: black;
 }
 
 .contact-form-input::placeholder {
-  color: #cecece; 
+  color: #cecece;
 }
 
 .description {
@@ -452,11 +454,6 @@ body,
   padding: 20px;
 }
 
-.email-label {
-  color: #f0e10c;
-  font-size: 16px;
-}
-
 .back-link {
   text-decoration: none;
   color: #007bff;
@@ -479,9 +476,9 @@ body,
   font-size: 16px;
   border: 1px rgb(157, 193, 248) solid;
   box-shadow: 0 0 1px rgb(255, 255, 255),
-  0 0 5px rgba(156, 245, 252, 0.966),
-  0 0 10px rgba(157, 193, 248, 0.5),
-  0 0 20px rgba(150, 250, 245, 0.5);
+    0 0 5px rgba(156, 245, 252, 0.966),
+    0 0 10px rgba(157, 193, 248, 0.5),
+    0 0 20px rgba(150, 250, 245, 0.5);
   border-radius: 5px;
 }
 
@@ -504,7 +501,7 @@ body,
   color: var(--light-red);
 }
 
-div.container.my-1-9 {
+.container.my-1-9 {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
@@ -531,23 +528,6 @@ div.container.my-1-9 {
   font-family: 'Josefin Sans', 'Rubik', 'Arial Narrow Bold', sans-serif
 }
 
-.profile-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.profile-container h1 {
-  text-align: center;
-}
-
-.profile-container p.email-info {
-  color: var(--light-red);
-  font-size: 0.9rem;
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-
 .thought-cards-p {
   display: flex;
   flex-wrap: wrap;
@@ -568,9 +548,6 @@ div.container.my-1-9 {
   width: 100%;
 }
 
-/* ------------------------ sidebar (href list)  ----------------------*/
-
-/* dropdown container  */
 .sidebar-container {
   position: relative;
   display: inline-block;
@@ -636,9 +613,9 @@ div.container.my-1-9 {
   /* creates glow around selected nav-link*/
   border: 1px rgb(157, 193, 248) solid;
   box-shadow: 0 0 1px rgb(255, 255, 255),
-  0 0 5px rgba(156, 245, 252, 0.966),
-  0 0 10px rgba(157, 193, 248, 0.5),
-  0 0 20px rgba(150, 250, 245, 0.5);
+    0 0 5px rgba(156, 245, 252, 0.966),
+    0 0 10px rgba(157, 193, 248, 0.5),
+    0 0 20px rgba(150, 250, 245, 0.5);
 }
 
 /* bucket app ---------------------------------------------------------*/
@@ -650,7 +627,7 @@ div.container.my-1-9 {
   justify-content: flex-start;
   width: 100%;
   min-height: 100vh;
-  background:  black;
+  background: black;
   text-align: left;
   margin: 0 auto;
   background-color: black;
@@ -733,7 +710,7 @@ header.header {
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 0px;
-    color: black;
+  color: black;
 }
 
 .thought-divider {
@@ -799,7 +776,7 @@ footer {
   width: 100%;
 }
 
-span.bold-text-span {
+.bold-text-span {
   font-weight: bold;
 }
 
@@ -810,32 +787,16 @@ a {
 
 /* svg icons on contact page*/
 a:hover {
-  color: var(--light-red)!important;
+  color: var(--light-red) !important;
 }
 
 /* span highlights ------------*/
-
-span.green-text-span {
-  background-color: rgb(132, 253, 62);
-}
-
-span.red-text-span {
-  background-color: rgba(253, 119, 119, 0.938);
-}
-
-span.blue-text-span {
-  background-color: rgba(121, 164, 255, 0.938);
-}
-
-span.cyan-text-span {
-  background-color: rgba(142, 251, 255, 0.938);
-}
 
 span.highlight {
   background: rgb(238, 255, 0);
 }
 
-p.purple-bold {
+.purple-bold {
   color: rgb(72, 69, 253);
   font-weight: bold;
   font-size: 1.0em;
@@ -843,47 +804,13 @@ p.purple-bold {
   font-style: italic;
 }
 
-p.blue-bold {
+.blue-bold {
   color: rgb(0, 79, 248);
   font-size: 1.0em;
   margin-left: 20px;
 }
 
-.custom-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
-}
-
-.custom-table th,
-.custom-table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-.custom-table th {
-  background-color: #f2f2f2;
-}
-
-.custom-table-center {
-  width: 50%;
-  border-collapse: collapse;
-  margin: 20px auto;
-  text-align: center;
-}
-
-.custom-table-center th,
-.custom-table-center td {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-.custom-table-center th {
-  background-color: #f2f2f2;
-}
-
-p.code-left-black {
+.code-left-black {
   margin-left: 20px;
   margin-right: 20px;
   text-indent: 20px;
@@ -930,15 +857,13 @@ p.code-left-black {
   padding: 16px;
 }
 
-
-
 /* ------ -------------------- ----------- */
 
-p.indent-text-1 {
+.indent-text-1 {
   margin: 25px;
 }
 
-div.bucket-app {
+.bucket-app {
   border-top: var(--dark-blue) ridge 8px;
 }
 
@@ -966,7 +891,7 @@ aside.sidebar {
 
 .nav-link {
   background-color: black !important;
-  color:   var(--creepy-green2) !important;
+  color: var(--creepy-green2) !important;
   border: 2px solid var(--midnight) !important;
   font-family: 'Source Code Pro';
 }
@@ -979,9 +904,9 @@ aside.sidebar {
   /* creates glow around selected nav-link*/
   border: 1px rgb(157, 193, 248) solid;
   box-shadow: 0 0 1px rgb(255, 255, 255),
-  0 0 5px rgba(156, 245, 252, 0.966),
-  0 0 10px rgba(157, 193, 248, 0.5),
-  0 0 20px rgba(150, 250, 245, 0.5);
+    0 0 5px rgba(156, 245, 252, 0.966),
+    0 0 10px rgba(157, 193, 248, 0.5),
+    0 0 20px rgba(150, 250, 245, 0.5);
 }
 
 li.nav-item {
@@ -995,12 +920,11 @@ li.nav-item {
   padding-top: 20px;
 }
 
-
 .separator-line {
   width: 100%;
   height: 1px;
-  background-color: #fff; 
-  margin: 20px 0; 
+  background-color: #fff;
+  margin: 20px 0;
 }
 
 .profile-picture {
@@ -1023,7 +947,8 @@ li.nav-item {
 }
 
 .index-list {
-  list-style-type: none; /* Remove bullet points */
+  list-style-type: none;
+  /* Remove bullet points */
   padding: 0;
   line-height: 1.8;
   margin-top: 0px;
@@ -1037,8 +962,10 @@ li.nav-item {
   margin: 4px 0;
   text-align: left;
   font-size: 16px;
-  font-family: 'Georgia', serif; /* Book-like font for the list */
-  color: black!important; /* Set the text color to black */
+  font-family: 'Georgia', serif;
+  /* Book-like font for the list */
+  color: black !important;
+  /* Set the text color to black */
 }
 
 .index-list li:last-child {
@@ -1047,155 +974,29 @@ li.nav-item {
 
 /* About ================================================================== */
 
-
-div.p-3.mb-3.bg-light.rounded-pixar {
+.rounded-pixar {
   background-color: rgb(180, 255, 249) !important;
-}
-
-div.p-3.mb-3.bg-light.rounded-pixar-2 {
-  background-color: rgb(206, 243, 243) !important;
-}
-
-span.red-text-x {
-  color: var(--light-red);
-}
-
-span.blue-text-x {
-  color: var(--blue);
-}
-
-span.blue-text-xx {
-  color: blue;
-}
-
-span.blue-text-xy {
-  color: blue;
-  background: rgb(238, 255, 0);
-}
-
-span.red-text-xy {
-  color: var(--light-red);
-  background: rgb(238, 255, 0);
-}
-
-span.green-text-x {
-  color: rgb(38, 207, 38);
 }
 
 /* projects ---------------------------------------------------------*/
 
-p,
-p.project-description {
+p {
   color: #ffffff;
-}
-
-div.project-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  padding: 20px;
-}
-
-div.project-card {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 400px;
-  border: 3px solid var(--bootstrap-lighter);
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-}
-
-div.project-card:hover {
-  opacity: 0.8;
-  border: var(--cyan) solid 3px;
-}
-
-.project-image {
-  max-width: 100%;
-  margin-bottom: 10px;
 }
 
 a.a-title {
   margin: 20px;
 }
 
-/* opacity hover */
-.project-card {
-  background: var(--bootstrap-dark);
-  padding: 0px;
-  border: rgb(255, 255, 255) solid 2px;
-  border-radius: 3%;
-}
-
-.project-card img {
-  opacity: 1;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-  border: var(--bootstrap-lighter) solid 3px;
-  border-radius: 3%;
-}
-
-.project-card:hover img {
-  opacity: .5;
-  border: var(--cyan) solid 3px;
-}
-
-p.portfolio-bio {
+.portfolio-bio {
   max-width: 700px;
   margin: 20px auto;
-}
-
-/* Resume -----------------------------------------------------*/
-
-p.resume {
-  color: white;
-  font-family: 'Source Code Pro';
-  margin: 20px;
-}
-
-ul.resume {
-  color: var(--blue);
-  font-family: 'Source Code Pro';
-  margin: 20px auto;
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-ul.resume li {
-  margin-left: 120px;
 }
 
 /* Footer -------------------------------------------------------------- */
 
 p.footer-text {
   color: white;
-}
-
-.red-text {
-  color: white;
-  font-family: 'Source Code Pro';
-}
-
-.cyan-text {
-  color: var(--blue);
-  font-family: 'Source Code Pro';
-}
-
-.volt-text {
-  color: var(--volt);
-  font-family: 'Source Code Pro';
-}
-
-.volt-text:hover {
-  color: var(--light-red);
-  font-family: 'Source Code Pro';
-  font-style: italic;
 }
 
 a {
@@ -1217,14 +1018,13 @@ a.icon:hover {
   border: 1px solid var(--creepy-green2);
 }
 
-p.mb-0-1 {
+.mb-0-1 {
   color: white;
 }
 
 .blog-post-title {
   color: var(--creepy-green);
 }
-
 
 sup {
   top: -.5em;
@@ -1237,10 +1037,10 @@ sup {
   padding: 2rem;
   margin: 0 auto;
   border: 1px solid #ffffff;
-  background-color: black!important;
+  background-color: black !important;
 }
 
-p.code-left {
+.code-left {
   margin-left: 20px;
   margin-right: 20px;
   text-indent: 20px;
@@ -1257,34 +1057,6 @@ code {
   background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.project-card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-
-.project-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.project-info {
-  padding: 20px;
-}
-
-.project-title {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.project-description {
-  font-size: 1rem;
-  color: #666;
-}
-
 .icons {
   display: flex;
   align-items: center;
@@ -1299,10 +1071,6 @@ code {
 }
 
 /* =============================== Label on project img hover*/
-
-.project-card {
-  position: relative;
-}
 
 .image-container {
   position: relative;
@@ -1332,7 +1100,7 @@ code {
 
 /* ================== Contact Form ======================== */
 
-p.contact-text {
+.contact-text {
   margin-right: 12px;
 }
 
@@ -1348,9 +1116,9 @@ p.contact-text {
 .form-container textarea:focus {
   border: 1px rgb(157, 193, 248) solid;
   box-shadow: 0 0 1px rgb(255, 255, 255),
-  0 0 5px rgba(156, 245, 252, 0.966),
-  0 0 10px rgba(157, 193, 248, 0.5),
-  0 0 20px rgba(150, 250, 245, 0.5);
+    0 0 5px rgba(156, 245, 252, 0.966),
+    0 0 10px rgba(157, 193, 248, 0.5),
+    0 0 20px rgba(150, 250, 245, 0.5);
 }
 
 form {
@@ -1395,28 +1163,7 @@ label {
 
 }
 
-div.contact-icons {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  /*  border: red solid 2px;  ------ only apply this to locate flexboxes*/
-}
-
-.icon-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  /*  border: red solid 2px;  ------ only apply this to locate flexboxes*/
-}
-
-.icon-container p {
-  margin-left: 15px;
-  /* Adds space between icon and text */
-}
-
-div.confirmation-message {
+.confirmation-message {
   background-color: var(--blue);
   border: 3px solid #ffffff;
   border-radius: 4px;
@@ -1434,124 +1181,14 @@ a.icon {
 
 /* ================  Dropdown menu for subjects ========================== */
 
-/* Dropdown Button */
-.dropbtn {
-  border-radius: 4px;
-  color: white;
-  background-color: var(--bootstrap-dark);
-  border: 2px solid black;
-  font-family: 'Source Code Pro';
-  font-size: 16px;
-  margin: 0 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  margin: 0;
-  padding: 8px;
-  min-width: 130px;
-}
-
-/* dropdown container  */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  color: rgb(0, 0, 0);
-}
-
-/* Dropdown Content  */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: var(--bootstrap-dark);
-  min-width: 215px;
-  border: var(--yellow) solid 2px;
-  border-radius: 4px;
-  padding: 16px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  text-align: left;
-  color: var(--yellow);
-}
-
 ol.nav.nav-tabs {
   list-style: decimal-leading-zero;
 }
 
-/* Links inside the dropdown */
-.dropdown-content p {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content p:hover {
-  background-color: #ddd;
-}
-
-/* Show dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Change background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: var(--bootstrap-dark) !important;
-  color: var(--yellow) !important;
-  border: 2px solid var(--yellow) !important;
-}
-
-
 /* ================ Blue squares divider (fixed: green/volt) ========================== */
-
-div.blue-separator {
-  display: flex;
-  justify-content: center;
-  /* Align squares with space between */
-  align-items: center;
-  padding: 35px 0;
-}
-
-.blue-square {
-  width: 8px;
-  height: 8px;
-  background-color: var(--volt);
-  margin: 0 5px;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
 .card {
   padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 /* ========================= media queries ======================== */
@@ -1564,15 +1201,12 @@ div.blue-separator {
 
 /* media query for contact flex-box icons*/
 @media screen and (max-width: 600px) {
-  div.icon-container {
-    flex-basis: 50%;
-  }
 
-  h1.jumbo-bg-dark-text {
+  .jumbo-bg-dark-text {
     font-size: 20px;
   }
 
-  h2.profile-text {
+  .profile-text {
     font-size: 1.2rem;
   }
 }
@@ -1584,23 +1218,11 @@ div.blue-separator {
     font-size: 32px;
   }
 
-  div.project-card {
-    max-width: 300px;
-  }
-
-  div.project-list {
-    padding: 10px;
-  }
-
   .nav-links li {
     margin: 0 10px;
   }
 
   .nav-link {
-    font-size: 14px;
-  }
-
-  .dropbtn {
     font-size: 14px;
   }
 
@@ -1613,50 +1235,21 @@ div.blue-separator {
     font-size: 16px;
   }
 
-  p.separator {
+  .separator {
     margin-bottom: 20px;
   }
 
-  img.profile-picture {
+  .profile-picture {
     width: 150px;
     height: 150px;
   }
 
-  p,
-  p.project-description {
+  p {
     font-size: 14px;
-  }
-
-  div.project-list {
-    gap: 20px;
-    padding: 10px;
-  }
-
-  div.project-card {
-    max-width: 300px;
-    border: 2px solid var(--bootstrap-lighter);
-  }
-
-  div.project-card:hover {
-    border: var(--cyan) solid 2px;
   }
 
   a.a-title {
     margin: 10px;
-  }
-
-  .project-info {
-    padding: 10px;
-  }
-
-  .project-title {
-    font-size: 1rem;
-    margin-bottom: 5px;
-  }
-
-  .project-description {
-    font-size: 0.9rem;
-    color: #666;
   }
 
   .icons {
@@ -1695,17 +1288,6 @@ div.blue-separator {
     margin: 0 10px;
   }
 
-  div.project-list {
-    gap: 20px;
-    padding: 10px;
-  }
-
-  div.project-card {
-    max-width: 300px;
-    border-width: 2px;
-    margin-bottom: 10px;
-  }
-
   form {
     width: 80%;
   }
@@ -1714,17 +1296,10 @@ div.blue-separator {
     padding: 8px 16px;
     font-size: 14px;
   }
-
-  div.blue-separator {
-    padding: 25px 50px;
-  }
 }
 
 /* Large screens (desktops and laptops) */
 @media screen and (min-width: 1024px) {
-
-  /* Add your styles for large screens here */
-  /* For example: */
 
   div.icon-container {
     justify-content: center;
@@ -1753,8 +1328,6 @@ div.blue-separator {
   }
 }
 
-
-
 @media (max-width: 500px) {
   .the {
     font-size: 2em;
@@ -1773,17 +1346,17 @@ div.blue-separator {
     height: auto;
   }
 }
- 
+
 @media screen and (max-width: 768px) {
- 
+
   .sidebar {
-      width: 180px;  
+    width: 180px;
   }
 
   .list-content {
-      min-width: 180px; /* Adjust width of dropdown content */
- padding: 0;
- border-right: 4px solid var(--midnight);
-    }
+    min-width: 180px;
+    /* Adjust width of dropdown content */
+    padding: 0;
+    border-right: 4px solid var(--midnight);
+  }
 }
- 
