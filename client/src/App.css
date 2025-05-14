@@ -98,7 +98,7 @@ body {
 }
 
 .wrap {
-  background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/106403/glitch-bg.png) center center no-repeat;
+  background: black url(../src/assets/glitch-bg.png) center center no-repeat;
   background-size: contain;
   height: 23vh;
   width: 35vh;

@@ -10,7 +10,7 @@ export default function Types() {
             <div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
                 <h1 className="display-4">Types of Scary Events</h1>
 
-                <div id="wrapper" className="text-left">
+                <div className="text-left">
                     <p className="lead my-3">It is a mistake to fancy that horror is associated inextricably with darkness, silence, and solitude.  </p>
                     <i>—  H. P. Lovecraft</i>
                     <p className="lead my-3">More disturbing than the unknown is a distortion of the familiar.  </p>

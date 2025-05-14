@@ -10,7 +10,7 @@ export default function Subtext() {
       <div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
         <h1 className="display-4">Genre</h1>
 
-        <div id="wrapper" className="text-left">
+        <div className="text-left">
           <p className="lead my-3">A ghost story of which the scene is laid in the twelfth or thirteenth century may succeed in being romantic or poetical  </p>
           <i>— M. R. James</i>
         </div>

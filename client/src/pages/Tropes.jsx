@@ -10,7 +10,7 @@ export default function Tropes() {
       <div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
         <h1 className="display-4">Tropes and Clichés</h1>
 
-        <div id="wrapper" className="text-left">
+        <div className="text-left">
         <p className="lead my-3">Our very heads are filled with rented ideas passed on from one generation to the next. </p>
         <i>— Thomas Ligotti</i>
         <p className="lead my-3">Be sure not to discuss your hero's state of mind. Make it clear from his actions</p>

@@ -10,7 +10,7 @@ export default function Techniques() {
       <div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
         <h1 className="display-4">Techniques</h1>
 
-        <div id="wrapper" className="text-left">
+        <div className="text-left">
           <p className="lead my-3">Nobody is a villain in their own story. We are all heroes in our own stories </p>
           <i>— George R. R. Martin</i>
         </div>
