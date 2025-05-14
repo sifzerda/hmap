@@ -59,12 +59,34 @@ body {
   animation-name: flicker;
   animation-timing-function: step-start;
   transition: color 0.5s ease;
-  /* Add a transition for color property */
 }
 
-/* -------------------glitch effect */
+.horror-text {
+  display: inline-block;
+  font-size: 5em;
+  text-shadow: .03em .03em 0 rgb(0, 255, 221);
+}
 
-/* https://codepen.io/chasebank/pen/qZNLyx */
+.horror-text:after {
+  content: attr(data-shadow);
+  position: absolute;
+  top: .06em;
+  left: .06em;
+  z-index: -1;
+  text-shadow: none;
+  background-image:
+    linear-gradient(45deg,
+      transparent 45%,
+      hsla(48, 20%, 90%, 1) 45%,
+      hsla(48, 20%, 90%, 1) 55%,
+      transparent 0);
+  background-size: .05em .05em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shad-anim 15s linear infinite;
+}
+
+/* -------------------glitch effect *//* https://codepen.io/chasebank/pen/qZNLyx */
 
 .the {
   font-size: 5em;
@@ -263,21 +285,42 @@ body {
   }
 }
 
-ol, ul {
+ol, 
+ul, 
+li {
   color: white;
 }
 
+h1 {
+  font-size: 99px !important;
+  margin: auto 0;
+  justify-content: center;
+  display: grid;
+  font-family: 'Amatic SC', cursive;
+  color:  var(--creepy-green2);
+  text-shadow: 5px 8px 5px rgba(0, 0, 0, 0.5);
+}
+
+h2, 
 h6 {
   color: var(--creepy-green);
 }
 
-li {
-  color:white;
+h3 {
+  margin: auto;
+  color: var(--light-blue);
+  font-size: 20px;
+}
+
+h4 {
+  color: var(--light-red);
+}
+
+h5 {
+  color: rgb(0, 110, 255);
 }
 
 /*---------------------------------------------------*/
-
-/* Additional styling */
 
 textarea {
   resize: none;
@@ -299,11 +342,6 @@ color: black;
   color: #cecece; 
 }
 
-.top-bar {
-  padding: 6px;
-  background-color: var(--bs-warning-rgb);
-}
-
 .description {
   white-space: pre-wrap;
 }
@@ -319,7 +357,7 @@ color: black;
   padding-top: 40px;
 }
 
-p.lead.my-3 {
+.lead.my-3 {
   color: white;
 }
 
@@ -332,97 +370,6 @@ p.lead.my-3 {
 .wrapper {
   display: inline-flex;
   list-style: none;
-}
-
-.wrapper .icon {
-  position: relative;
-  background: #ffffff;
-  border-radius: 50%;
-  padding: 15px;
-  margin: 10px;
-  width: 50px;
-  height: 50px;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .tooltip {
-  position: absolute;
-  top: 0;
-  font-size: 14px;
-  background: #ffffff;
-  color: #ffffff;
-  padding: 5px 8px;
-  border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .tooltip::before {
-  position: absolute;
-  content: "";
-  height: 8px;
-  width: 8px;
-  background: #ffffff;
-  bottom: -3px;
-  left: 50%;
-  transform: translate(-50%) rotate(45deg);
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .icon:hover .tooltip {
-  top: -45px;
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-.wrapper .icon:hover span,
-.wrapper .icon:hover .tooltip {
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-}
-
-.wrapper .facebook:hover,
-.wrapper .facebook:hover .tooltip,
-.wrapper .facebook:hover .tooltip::before {
-  background: #1877F2;
-  color: #ffffff;
-}
-
-.wrapper .twitter:hover,
-.wrapper .twitter:hover .tooltip,
-.wrapper .twitter:hover .tooltip::before {
-  background: #1DA1F2;
-  color: #ffffff;
-}
-
-.wrapper .instagram:hover,
-.wrapper .instagram:hover .tooltip,
-.wrapper .instagram:hover .tooltip::before {
-  background: #E4405F;
-  color: #ffffff;
-}
-
-.wrapper .github:hover,
-.wrapper .github:hover .tooltip,
-.wrapper .github:hover .tooltip::before {
-  background: #333333;
-  color: #ffffff;
-}
-
-.wrapper .youtube:hover,
-.wrapper .youtube:hover .tooltip,
-.wrapper .youtube:hover .tooltip::before {
-  background: #CD201F;
-  color: #ffffff;
 }
 
 /* -----------------------*/
@@ -458,7 +405,7 @@ body,
   text-align: center;
 }
 
-a.back-link {
+.back-link {
   text-decoration: none;
   color: white;
   margin-bottom: 10px;
@@ -550,7 +497,7 @@ a.back-link {
   color: #dc3545;
 }
 
-h2.login-title {
+.login-title {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -577,7 +524,7 @@ div.container.my-1-9 {
   border-radius: 10px;
 }
 
-h1.jumbo-bg-dark-text {
+.jumbo-bg-dark-text {
   margin: 32px 0;
   color: var(--blue);
   font-size: 35px;
@@ -835,31 +782,6 @@ header.header {
   position: relative;
 }
 
-h1.horror-text {
-  display: inline-block;
-  font-size: 5em;
-  text-shadow: .03em .03em 0 rgb(0, 255, 221);
-}
-
-h1.horror-text:after {
-  content: attr(data-shadow);
-  position: absolute;
-  top: .06em;
-  left: .06em;
-  z-index: -1;
-  text-shadow: none;
-  background-image:
-    linear-gradient(45deg,
-      transparent 45%,
-      hsla(48, 20%, 90%, 1) 45%,
-      hsla(48, 20%, 90%, 1) 55%,
-      transparent 0);
-  background-size: .05em .05em;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shad-anim 15s linear infinite;
-}
-
 .header {
   width: 100%;
   display: flex;
@@ -1073,21 +995,6 @@ li.nav-item {
   padding-top: 20px;
 }
 
-h1 {
-  font-size: 99px !important;
-  margin: auto 0;
-  justify-content: center;
-  display: grid;
-  font-family: 'Amatic SC', cursive;
-  color:  var(--creepy-green2);
-  text-shadow: 5px 8px 5px rgba(0, 0, 0, 0.5);
-}
-
-h3 {
-  margin: auto;
-  color: var(--light-blue);
-  font-size: 20px;
-}
 
 .separator-line {
   width: 100%;
@@ -1310,14 +1217,6 @@ a.icon:hover {
   border: 1px solid var(--creepy-green2);
 }
 
-h4 {
-  color: var(--light-red);
-}
-
-h2 {
-  color: var(--creepy-green);
-}
-
 p.mb-0-1 {
   color: white;
 }
@@ -1326,9 +1225,6 @@ p.mb-0-1 {
   color: var(--creepy-green);
 }
 
-h5 {
-  color: rgb(0, 110, 255);
-}
 
 sup {
   top: -.5em;
@@ -1878,13 +1774,10 @@ div.blue-separator {
   }
 }
  
-
 @media screen and (max-width: 768px) {
+ 
   .sidebar {
-      width: 180px; /* Narrowed width when window is minimized */
-  }
-  .aside.sidebar {
-width: 180px;
+      width: 180px;  
   }
 
   .list-content {
