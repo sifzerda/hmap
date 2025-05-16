@@ -407,13 +407,6 @@ body,
   text-align: center;
 }
 
-.back-link {
-  text-decoration: none;
-  color: white;
-  margin-bottom: 10px;
-  display: inline-block;
-}
-
 /* signup ---------------------------------------------------------*/
 
 .signup-container {
@@ -452,13 +445,6 @@ body,
   display: flex;
   justify-content: center;
   padding: 20px;
-}
-
-.back-link {
-  text-decoration: none;
-  color: #007bff;
-  margin-bottom: 10px;
-  display: inline-block;
 }
 
 .form-group-z {
@@ -509,6 +495,13 @@ body,
   border-radius: 5px;
   background-color: black;
   border: 1px solid white;
+}
+
+.back-link {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+  display: inline-block;
 }
 
 /* ---------------- profile -----------------*/
@@ -995,7 +988,27 @@ a.a-title {
 
 /* Footer -------------------------------------------------------------- */
 
-p.footer-text {
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-side {
+  font-size: 1rem;
+}
+
+.footer-content a {
+  color: var(--llblue);
+  text-decoration: none;
+}
+
+.footer-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 2px;
   color: white;
 }
 
